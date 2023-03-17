@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "bolsa escolar",
+    "price": 50
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/689d9b2d-1b3e-49ee-bef0-f2c49f455767
+
+###
+
+PUT http://localhost:4002/products/98473657-7f09-4f79-8985-221b21f6e1ad
+content-type: application/json
+
+{
+    "name": "Caderno de 12 matérias",
+    "price": 13.50
+}
+
+###
+
+DELETE http://localhost:4002/products/281dff92-9df3-44e7-9b81-ec1c148db79d
